@@ -15,8 +15,7 @@ public class InitWorkingDirectory {
         try {
             createRequiredFiles();
         } catch (Exception e) {
-            Throwable cause = e.getCause();
-            throw new RuntimeException("Could not create files: ".concat(cause.getMessage()));
+            e.printStackTrace();
         }
     }
 
@@ -25,6 +24,7 @@ public class InitWorkingDirectory {
         CommonFiles cmf = new CommonFiles();
 
         // Create files for each field
+        int i = 0;
         for (Field field : CommonFiles.class.getDeclaredFields()) {
             field.setAccessible(true);
             createFile(field.get(cmf).toString());
@@ -32,13 +32,14 @@ public class InitWorkingDirectory {
     }
 
     private void createFile(String name) {
-        File file = new File(basePath.concat(name));
+        String finPath = basePath.concat(name);
+        File file = new File(finPath.substring(1));
 
         if (file.exists()) return;
 
         try {
-            if (!file.canRead() || !file.canWrite() || !file.mkdirs()) throw new Exception();
-            file.createNewFile(); // Create file itself!
+            if (!file.canRead() || !file.canWrite() || !file.mkdirs())
+                file.createNewFile(); // Create file itself!
         } catch (Exception e) {
             throw new RuntimeException("Could not read/write to destination: ".concat(file.getAbsolutePath()));
         }

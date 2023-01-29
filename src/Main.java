@@ -1,4 +1,6 @@
 import InitWorkingDirectory.InitWorkingDirectory;
+import common.EnterPeople;
+
 import java.net.URISyntaxException;
 
 public class Main {
@@ -16,7 +18,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new InitWorkingDirectory(jarPath()); // Should be replaced with Thread
+       new InitWorkingDirectory(jarPath()); // Should be replaced with Thread
+
     }
 }
 
