@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875c870a-7e32-4d61-baf2-0171e7ec39ce" name="Changes" comment="feat(InitWorkingDirectory.java): complete init working directory class">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Date.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Food.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utlis/Dinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utlis/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Samad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InitWorkingDirectory/InitWorkingDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InitWorkingDirectory/InitWorkingDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/EnterPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/EnterPeople.java" afterDir="false" />
-    </list>
+    <list default="true" id="875c870a-7e32-4d61-baf2-0171e7ec39ce" name="Changes" comment="feat(User class)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +70,15 @@
       <workItem from="1674823280816" duration="5012000" />
       <workItem from="1674978857288" duration="2834000" />
       <workItem from="1674986152438" duration="633000" />
-      <workItem from="1675010042401" duration="2678000" />
+      <workItem from="1675010042401" duration="3026000" />
     </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="feat(User class)">
+      <created>1675014109372</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1675014109372</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +97,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(InitWorkingDirectory.java): complete init working directory class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(InitWorkingDirectory.java): complete init working directory class" />
+    <MESSAGE value="feat(User class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(User class)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
